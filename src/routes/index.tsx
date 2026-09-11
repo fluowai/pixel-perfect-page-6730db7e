@@ -109,7 +109,7 @@ function Index() {
       <main>
         {/* Hero */}
         <section className="bg-gradient-to-b from-brand-soft/70 to-background">
-          <div className="mx-auto grid max-w-6xl items-center gap-12 px-5 py-16 lg:grid-cols-[1fr_1.15fr] lg:py-20">
+          <div className="mx-auto grid max-w-[1400px] items-center gap-12 px-5 py-16 md:px-8 lg:grid-cols-[1fr_1.15fr] lg:py-20">
             <div>
               <p className="text-xs font-semibold tracking-[0.2em] text-muted-foreground uppercase">
                 Uma plataforma, infinitas possibilidades
@@ -186,7 +186,7 @@ function Index() {
 
         {/* Segmentos */}
         <section className="bg-background py-20" id="segmentos">
-          <div className="mx-auto max-w-6xl px-5">
+          <div className="mx-auto max-w-[1400px] px-5 md:px-8">
             <div className="text-center">
               <p className="text-xs font-semibold tracking-[0.2em] text-muted-foreground uppercase">
                 Diferentes segmentos, uma mesma tecnologia
@@ -234,7 +234,7 @@ function Index() {
 
         {/* Tudo que você precisa */}
         <section className="bg-background pb-20">
-          <div className="mx-auto grid max-w-6xl items-center gap-14 px-5 lg:grid-cols-2">
+          <div className="mx-auto grid max-w-[1400px] items-center gap-14 px-5 md:px-8 lg:grid-cols-2">
             <div>
               <p className="text-xs font-semibold tracking-[0.2em] text-muted-foreground uppercase">
                 Mais do que sistemas, resultados
@@ -307,7 +307,7 @@ function Index() {
 
         {/* Números */}
         <section className="bg-surface py-16">
-          <div className="mx-auto max-w-6xl px-5 text-center">
+          <div className="mx-auto max-w-[1400px] px-5 md:px-8 text-center">
             <p className="text-xs font-semibold tracking-[0.2em] text-muted-foreground uppercase">
               Números que impulsionam
             </p>
@@ -330,7 +330,7 @@ function Index() {
 
         {/* CTA */}
         <section id="contato" className="bg-background pb-20">
-          <div className="mx-auto max-w-6xl px-5">
+          <div className="mx-auto max-w-[1400px] px-5 md:px-8">
             <div className="grid items-center gap-8 rounded-2xl bg-gradient-to-r from-brand-dark to-brand px-8 py-12 text-primary-foreground lg:grid-cols-[1.4fr_1fr]">
               <div>
                 <p className="text-xs font-semibold tracking-[0.2em] uppercase opacity-80">

@@ -31,7 +31,7 @@ export function Testimonials() {
 
   return (
     <section className="bg-background py-20">
-      <div className="mx-auto max-w-6xl px-5 text-center">
+      <div className="mx-auto max-w-[1400px] px-5 md:px-8 text-center">
         <p className="text-xs font-semibold tracking-[0.2em] text-muted-foreground uppercase">
           Histórias reais, grandes resultados
         </p>

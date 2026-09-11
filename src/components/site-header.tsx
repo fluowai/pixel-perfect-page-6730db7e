@@ -12,11 +12,10 @@ const navItems = [
   { label: "Contato", hasCaret: false },
 ];
 
-export function Logo({ className = "h-8" }: { className?: string }) {
+export function Logo({ className = "h-8 sm:h-10" }: { className?: string }) {
   return (
     <span className="flex items-center gap-2">
       <img src={markAsset.url} alt="Woodesk" className={className} />
-      <span className="text-xl font-extrabold tracking-tight text-navy">Woodesk</span>
     </span>
   );
 }
@@ -26,7 +25,7 @@ export function SiteHeader() {
 
   return (
     <header className="sticky top-0 z-50 border-b border-border/60 bg-background/90 backdrop-blur">
-      <div className="mx-auto flex h-16 max-w-6xl items-center justify-between px-5">
+      <div className="mx-auto flex h-20 max-w-[1400px] items-center justify-between px-5 md:px-8">
         <Logo />
 
         <nav className="hidden items-center gap-7 lg:flex">
@@ -44,13 +43,13 @@ export function SiteHeader() {
 
         <div className="hidden items-center gap-3 lg:flex">
           <a
-            href="#"
+            href="http://localhost:2202/login"
             className="rounded-lg border border-border px-5 py-2 text-sm font-semibold text-navy transition-colors hover:bg-surface"
           >
             Entrar
           </a>
           <a
-            href="#contato"
+            href="http://localhost:2202/signup"
             className="rounded-lg bg-brand px-5 py-2 text-sm font-semibold text-primary-foreground transition-colors hover:bg-brand-dark"
           >
             Teste Grátis
