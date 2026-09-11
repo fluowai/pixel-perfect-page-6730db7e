@@ -27,7 +27,7 @@ const testimonials = [
 export function Testimonials() {
   const [page, setPage] = useState(0);
   const pages = Math.max(1, testimonials.length - 2);
-  const visible = [0, 1, 2].map((i) => testimonials[(page + i) % testimonials.length]);
+  const visible = [0, 1, 2].map((i) => testimonials[(page + i) % testimonials.length]!);
 
   return (
     <section className="bg-background py-20">
